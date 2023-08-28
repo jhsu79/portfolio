@@ -1,0 +1,14 @@
+[
+    {
+      "name": "Blackjack",
+      "live": "https://jhsu79.github.io/blackjack/",
+      "git": "https://github.com/jhsu79/blackjack",
+      "image": "https://imgur.com/a/A0eUz54"
+    },
+    {
+      "name": "Mingo",
+      "live": "https://mingo-b8899ae399d9.herokuapp.com/posts",
+      "git": "https://github.com/jhsu79/mingo",
+      "image": "https://imgur.com/a/nibRVlC"
+    }
+  ]
