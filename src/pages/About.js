@@ -10,8 +10,9 @@ function About() {
   useEffect(() => { getAboutData() } , []);
 
   const loaded = () => (
-    <div>
+    <div className='about'>
       <h2>{about.name}</h2>
+      <img src={about.image}></img>      
       <h3>{about.email}</h3>
       <p> {about.bio}</p>
     </div>
