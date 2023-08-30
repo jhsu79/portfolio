@@ -1,25 +1,19 @@
-import { Link } from "react-router-dom";
-
-export default function Header(props) { 
-
-    return ( 
-      <header className="header">
-      <h1>Joshua N Hsu</h1>
-      <h2>Software Engineer</h2>
-      <nav className="nav">
-        <Link to="/">
-          <div>HOME</div>
-        </Link>
-        <Link to="/about">
-          <div>ABOUT</div>
-        </Link>
-        <Link to="/projects">
-          <div>PROJECTS</div>
-        </Link>
+import "./Header.css";
+import Button from "./Button";
+export default function Header(props) {
+  return (
+    <header className="header">
+      <div className="title">
+        <h1>Joshua N Hsu</h1>
+        <h2>Software Engineer</h2>
+      </div>
+      <nav className="Nav">
+        <Button linktext="Home" url="/" />
+        <Button linktext="About" url="/about" />
+        <Button linktext="Projects" url="/projects" />
       </nav>
     </header>
-    )
+  );
 
-    return <h1>Header</h1>;
-  }
-  
+  return <h1>Header</h1>;
+}

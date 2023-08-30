@@ -1,4 +1,4 @@
-.App {
+/* .App {
   margin: 10%; 
   background-color: green;
   color: white;
@@ -17,7 +17,7 @@
   color: white;
 }
 
-.nav {
+/* .nav {
   display: flex;
   justify-content: space-evenly;
   border: .2rem solid white;
@@ -26,9 +26,9 @@
   width: 50%;
   margin: auto; 
   background-color: rgb(172, 224, 172);
-}
+} */
 
-.about {
+/* .about {
   display: flex;
   justify-content: space-evenly;
   border: .2rem solid white;
@@ -36,4 +36,4 @@
   padding: .5rem;
   width: 50%;
   margin: auto;
-}
+} */ 

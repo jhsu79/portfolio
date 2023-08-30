@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
+import Image from "../components/Image";
+import './About.css'
 
-function About() {
+export default function About() {
   const [about, setAbout] = useState(null);
   const getAboutData = async () => {
   const response = await fetch("./about.json");
@@ -9,16 +11,17 @@ function About() {
   };
   useEffect(() => { getAboutData() } , []);
 
-  const loaded = () => (
-    <div className='about'>
-      <h2>{about.name}</h2>
-      <img src={about.image}></img>      
-      <h3>{about.email}</h3>
-      <p> {about.bio}</p>
+  const loaded = ({name, imageurl, email, bio}) => (
+    <div className='About'>
+      <h2>About Me</h2>
+      <div className='image-bio'>
+      <Image imageurl={imageurl} height="300" width="300" />
+      <p> {bio}</p>
+      </div>
+      <h3>Want to talk more? {email}</h3>
+      
     </div>
   );
-  return about ? loaded() : <h1>Loading...</h1>;
+  return about ? loaded(about) : <h1>Loading...</h1>;
 }
-
-export default About;
 
