@@ -1,13 +1,14 @@
-.Button {
-   
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
 
 .Button a {
     text-decoration: none; 
     color: white;
     margin: 10px; 
     padding: 10px; 
-    border-radius: 3px; 
-    background-color:#2587fb ;
+    border-radius: 12px; 
+    background: -webkit-linear-gradient(#2587fb, #11345f);
+    border-bottom: 1px solid black;
+    box-shadow: 0px 1px 12px gray;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 300; 
 }

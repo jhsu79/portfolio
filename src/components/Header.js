@@ -4,8 +4,8 @@ export default function Header(props) {
   return (
     <header className="header">
       <div className="title">
-        <h1>Joshua N Hsu</h1>
-        <h2>Software Engineer</h2>
+        <h1>joshua n hsu</h1>
+        <h2>software engineer</h2>
       </div>
       <nav className="Nav">
         <Button linktext="Home" url="/" />

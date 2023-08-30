@@ -11,12 +11,14 @@ export default function About() {
   };
   useEffect(() => { getAboutData() } , []);
 
-  const loaded = ({name, imageurl, email, bio}) => (
+  const loaded = ({name, imageurl, email, bio, welcometext, current}) => (
     <div className='About'>
-      <h2>About Me</h2>
-      <div className='image-bio'>
+     
+      <div className='image-bio-container'>
       <Image imageurl={imageurl} height="300" width="300" />
-      <p> {bio}</p>
+      <div> 
+      <p className='bio-container'><h2>about me</h2><p className='bio'>{welcometext}{bio}{current}</p></p></div>
+      
       </div>
       <h3>Want to talk more? {email}</h3>
       

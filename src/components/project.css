@@ -6,6 +6,8 @@
     border-radius: 10px; 
     border-bottom: 2px solid black;
     box-shadow: 0px 1px 5px gray;
+    background-color: #F5F5F5;
+
 } 
 .project-button{
     display: flex; 
