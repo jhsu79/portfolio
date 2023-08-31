@@ -1,39 +1,4 @@
-/* .App {
-  margin: 10%; 
-  background-color: green;
-  color: white;
-  text-align: left; 
-  margin: 10px; 
-}
-
-.header { 
-  display: flex;
-  align-items: center; 
-  justify-content: space-around; 
-  gap: 2%;
-  padding: 10px; 
-  border: 5px solid white; 
-  border-radius: 10px; 
-  color: white;
-}
-
-/* .nav {
-  display: flex;
-  justify-content: space-evenly;
-  border: .2rem solid white;
-  border-radius: 10px; 
-  padding: .5rem;
-  width: 50%;
-  margin: auto; 
-  background-color: rgb(172, 224, 172);
-} */
-
-/* .about {
-  display: flex;
-  justify-content: space-evenly;
-  border: .2rem solid white;
-  border-radius: 10px; 
-  padding: .5rem;
-  width: 50%;
-  margin: auto;
-} */ 
+.App {
+  background: linear-gradient(0deg,rgb(90, 142, 174), whitesmoke);
+  background-repeat: no-repeat;
+  }

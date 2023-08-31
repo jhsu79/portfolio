@@ -1,9 +1,11 @@
 {
     "name": "Joshua Hsu",
-    "email": "yourface@face.com",
-    "imageurl": "https://i.imgur.com/OnOCR1V.jpg",
-    "bio": "I am a software engineer with a demonstrated history in education and arts management, instructional design and implementation; a passionate leader skilled in vision building, customer relationship management, content writing, and public speaking, I am excited by and enjoy working on innovative, immersive, collaborative projects that spark creativity, conversation, and joy. ",
-    "welcometext": "Welcome to my page! I'm Joshua Hsu (pronounced 'Shoe'). ", 
-    "current": "I'm currently based out of Portland, Maine, where I live with my partner, two children, and two dogs."
+    "pronouns": "he/him",
+    "imageurl": "https://i.imgur.com/m6iZxkq.jpg",
+    "bio": "I'm a driven software engineer with a demonstrated history in education and arts management, vision building, and design.",
+    "interests": "I enjoy working on immersive and collaborative projects that spark creativity, conversation, and joy.", 
+    "location": "I currently reside in Portland, ME with my wife, two children, and two dogs.",
+    "resume": "asdf"
+  
   }
 

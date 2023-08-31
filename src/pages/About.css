@@ -1,11 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
 
 .About{
     margin: 20px; 
 }
 
 .About img {
-    border-radius: 25%; 
+    border-radius: 50%; 
     border-bottom: 2px solid black;
     box-shadow: 0px 1px 5px gray;
 }
@@ -25,14 +25,15 @@
     background-color: #F5F5F5;
     border-bottom: 2px solid black;
     box-shadow: 0px 1px 5px gray;
+    color: rgb(78, 77, 77)
 }
 
-.bio {
-    margin: 30px; 
+.bio { 
     padding: 20px 40px; 
     border-radius: 10px; 
     background-color: white;
     border-bottom: 2px solid black;
     box-shadow: 0px 1px 5px gray;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 400
 }
