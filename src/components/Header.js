@@ -1,5 +1,6 @@
 import "./Header.css";
 import Button from "./Button";
+import { faHouse } from "@fortawesome/free-solid-svg-icons"
 export default function Header(props) {
   return (
     <header className="header">
@@ -8,7 +9,7 @@ export default function Header(props) {
         <h2> software engineer | educator | artist </h2>
       </div>
       <nav className="Nav">
-        <Button linktext="Home" url="/" />
+        <Button icon={faHouse} url="/" />
         <Button linktext="About" url="/about" />
         <Button linktext="Projects" url="/projects" />
       </nav>
