@@ -1,14 +1,13 @@
-import { Link } from "react-router-dom";
 import "./Button.css"
 import Icon from "./Icon"
 
-export default function Button(props) {
+export default function DownloadButton(props) {
   return (
     <div className="Button">
-      <Link to={props.url} >
+        <a href={props.url} download>
         {props.linktext ? props.linktext : null }
         {props.icon ? <Icon icon={props.icon}/> : null }
-      </Link>
+        </a>
     </div>
   );
 }
