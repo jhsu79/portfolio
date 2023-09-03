@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&family=Tajawal:wght@200;300;400');
 
 .About{
     margin: 20px; 
@@ -14,8 +14,8 @@
 .image-bio-container{
     display: flex; 
     align-items: center; 
-    font-family: 'Tajawal', sans-serif;
-    font-weight: 300; 
+    font-family: 'FigTree', sans-serif;
+    font-weight: 400; 
 }
 
 .image-bio-container .bio-container {
