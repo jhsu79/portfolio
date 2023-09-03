@@ -13,6 +13,7 @@ export default function Contact() {
         <button type="submit" className="Button">Send</button> 
       </form>
       </div>
+      <p className='text'> how can we work together? </p>
     </div>
   );
 }
