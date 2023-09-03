@@ -1,4 +1,4 @@
-import "./project.css"
+import "./Project.css"
 
 import Button from "./Button";
 import Image from "./Image";
@@ -11,7 +11,7 @@ export default function Project({
   return (
     <div className="Project">
       <h1>{name}</h1>
-      <Image imageurl={image} height="400" width="800" />
+      <Image imageurl={image} height="400" width="600" />
       <p>{description}</p>
       <div className="project-button">
        <Button url="https://github.com/jhsu79" icon={faSquareGithub} />

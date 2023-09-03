@@ -13,11 +13,31 @@ export default function About() {
     getAboutData();
   }, []);
 
-  const loaded = ({ imageurl, bio, interests, location, languages, pronunciation }) => (
+  const loaded = ({
+    imageurl,
+    bio,
+    interests,
+    location,
+    languages,
+    pronunciation,
+    programming,
+    frameworks,
+    tools,
+  }) => (
     <div className="About">
       <div className="image-bio-container">
-      <div><Image imageurl={imageurl} height="300" width="300" />
-      </div>
+        <div>
+        <p className="bio-container">
+          <Image imageurl={imageurl} height="300" width="300" />
+        
+            <h2>programming languages</h2>
+            <p className="bio">{programming}</p>
+            <h2>frameworks</h2>
+            <p className="bio">{frameworks}</p>
+            <h2>tools</h2>
+            <p className="bio">{tools}</p>
+          </p>
+        </div>
         <div>
           <p className="bio-container">
             <h2>about me</h2>

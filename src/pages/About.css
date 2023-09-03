@@ -13,7 +13,7 @@
 
 .image-bio-container{
     display: flex; 
-    align-items: center; 
+    align-items: start; 
     font-family: 'FigTree', sans-serif;
     font-weight: 400; 
 }
