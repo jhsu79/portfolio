@@ -10,7 +10,7 @@ export default function Contact() {
         <Input label='name' />
         <Input label='your e-mail'/>
         <Input label='your message' type='text-area'/>
-        <button className="Button">Send</button> 
+        <button type="submit" className="Button">Send</button> 
       </form>
       </div>
     </div>
