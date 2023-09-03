@@ -2,12 +2,15 @@ import "./Footer.css";
 import Button from "./Button";
 import Icon from "./Icon"
 import { faLinkedin, faSquareGithub } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
 import DownloadButton from "./DownloadButton";
 import Resume from "../assets/jhresumewebv.pdf"
 
 export default function Footer() {
   return (
    <div className= "Footer">
+    <Button url="/contact" linktext="contact me:" icon={faEnvelope} />
     <nav className="Nav">
       <Button url="https://www.linkedin.com/in/joshuanhsu" icon={faLinkedin} />
       <Button url="https://github.com/jhsu79" icon={faSquareGithub} />

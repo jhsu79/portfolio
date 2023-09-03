@@ -9,7 +9,7 @@ export default function Project({
   project: { name, description, image, git, live },
 }) {
   return (
-    <div className="Project">
+    <div className="Project card">
       <h1>{name}</h1>
       <Image imageurl={image} height="400" width="600" />
       <p>{description}</p>

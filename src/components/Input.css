@@ -1,0 +1,24 @@
+.Input {
+    display: flex; 
+    flex-direction: column; 
+    margin: 10px;
+    font-family: "Figtree", sans-serif;
+}
+
+.Input input , textarea {
+    height: 20px;
+    border-radius: 10px; 
+    padding: 5px; 
+    font-family: "Figtree", sans-serif;
+    background-color: whitesmoke;
+    box-shadow: 0px 1px 5px gray;
+}
+
+label {
+    font-weight: 600;
+}
+
+textarea {
+    border: 2px solid black;
+    min-height: 200px; 
+}

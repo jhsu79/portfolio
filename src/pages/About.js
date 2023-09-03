@@ -31,25 +31,25 @@ export default function About() {
           <Image imageurl={imageurl} height="300" width="300" />
         
             <h2>programming languages</h2>
-            <p className="bio">{programming}</p>
+            <p className="card">{programming}</p>
             <h2>frameworks</h2>
-            <p className="bio">{frameworks}</p>
+            <p className="card">{frameworks}</p>
             <h2>tools</h2>
-            <p className="bio">{tools}</p>
+            <p className="card">{tools}</p>
           </p>
         </div>
         <div>
           <p className="bio-container">
             <h2>about me</h2>
-            <p className="bio">{bio}</p>
+            <p className="card">{bio}</p>
             <h2>interests</h2>
-            <p className="bio">{interests}</p>
+            <p className="card">{interests}</p>
             <h2>how do I pronounce my last name?</h2>
-            <p className="bio">I pronounce my last name "{pronunciation}"</p>
+            <p className="card">I pronounce my last name "{pronunciation}"</p>
             <h2>location</h2>
-            <p className="bio">{location}</p>
+            <p className="card">{location}</p>
             <h2>languages spoken</h2>
-            <p className="bio">{languages}</p>
+            <p className="card">{languages}</p>
           </p>
         </div>
       </div>
