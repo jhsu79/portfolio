@@ -1,10 +1,10 @@
 {
     "name": "Joshua Hsu",
     "pronouns": "he/him",
-    "pronunciation": "shoe",
+    "pronunciation": "shoe.",
     "imageurl": "https://i.imgur.com/m6iZxkq.jpg",
     "bio": "Hi there! I'm Joshua Hsu (he/him). Most people call me Josh. I'm an emerging software engineer with a demonstrated history in education and arts management, vision building, and design.",
-    "interests": "I enjoy working on immersive and collaborative projects that spark creativity, curiosity, and conversation", 
+    "interests": "I enjoy working on immersive and collaborative projects that spark creativity, curiosity, and conversation.", 
     "location": "I currently reside in Portland, ME with my wife, two children, and two dogs.",
     "languages": "I speak not only English but also Mandarin and Cantonese.",
     "programming": "JavaScript, HTML, CSS, Python, SQL, Typescript, EJS, DTL",

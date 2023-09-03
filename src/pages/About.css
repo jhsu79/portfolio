@@ -17,7 +17,7 @@
     font-weight: 400; 
 }
 
-.image-bio-container .bio-container {
+.image-bio-container, .bio-container {
     margin: 30px; 
     padding: 20px 40px; 
     border-radius: 10px; 
