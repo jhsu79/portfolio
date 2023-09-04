@@ -18,7 +18,7 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    margin: 20px;
+    margin: 50px;
     padding: 20px 40px; 
     border-radius: 10px; 
     background-color: whitesmoke;
@@ -29,7 +29,10 @@
 }
 
 .image-card * {
+    background-color: whitesmoke;
     border-radius: 30px;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 1px 5px gray;
 }
 
 .project-buttons {
