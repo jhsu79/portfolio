@@ -1,7 +1,9 @@
 #JOSHUA N HSU (he/him)
 
 ##### ABOUT ME 
-Hi there! I'm Joshua N Hsu (Pronounced 'Shoe').  I'm an emerging software engineer with a demonstrated history in education and arts management, vision building, and design. I enjoy working on immersive and collaborative projects that spark creativity, curiosity, and conversation. I currently reside in Portland, ME with my wife, two children, and two dogs.
+Hi there! I'm Joshua N Hsu (Pronounced 'Shoe').  I'm an emerging software engineer with a demonstrated history in education and arts management, vision building, and design. My experience in the arts and education has taught me how to manage teams, deal with different personalities, and design and implement solutions with few resources and tight deadlines. I am confident in my ability to deliver a product that can be crafted to a client's needs, harnessing the specific tools necessary to get the job done. Whatever the experience, I enjoy working on immersive and collaborative projects that spark creativity, curiosity, and conversation. I currently reside in Portland, ME with my wife, two children, and two dogs.
+
+
 
 ##### LINK TO PORTFOLIO 
 [Click here to see my portfolio](https://joshuahsu.netlify.app/)
