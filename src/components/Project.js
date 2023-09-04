@@ -1,4 +1,4 @@
-import "./project.css"
+import "./Project.css"
 import Button from "./Button";
 import Image from "./Image";
 import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";

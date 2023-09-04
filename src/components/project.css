@@ -28,7 +28,10 @@
     font-weight: 400
 }
 
-.image {
-    border-radius: 10px;
+.image-card * {
+    border-radius: 30px;
 }
 
+.project-buttons {
+    width: 20%;
+}
