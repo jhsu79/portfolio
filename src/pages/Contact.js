@@ -5,6 +5,7 @@ import "./About.css"
 export default function Contact() {
   return (
     <div className="Contact">
+        <p className='text'> how can we work together? </p>
       <div className="card">
       <form>
         <Input label='name' />
@@ -13,7 +14,6 @@ export default function Contact() {
         <button type="submit" className="Button">Send</button> 
       </form>
       </div>
-      <p className='text'> how can we work together? </p>
     </div>
   );
 }

@@ -12,6 +12,6 @@
       "live": "https://jhsu79.github.io/blackjack/",
       "git": "https://github.com/jhsu79/blackjack",
       "image": "https://i.imgur.com/LU4lLId.png",
-      "description": "That game, yo."
+      "description": "Basic Blackjack game coded with object-oriented programming."
     }
   ]

@@ -1,18 +1,36 @@
-
-.Project{
+.project-card {
     font-family: 'FigTree', sans-serif;
     font-weight: 700;
+    font-size: 20px;
     display: flex; 
-    flex-direction: column; 
-    margin: 20px; 
+    flex-direction: row; 
+    align-items: center;
+    margin: 40px; 
     padding: 20px;
     border-radius: 10px; 
     border-bottom: 2px solid black;
     box-shadow: 0px 1px 5px gray;
-    background-color: #F5F5F5;
+    background-color: white;
 
 } 
-.project-button{
+.name-description-card  {
     display: flex; 
-    margin-top: 10px; 
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px;
+    padding: 20px 40px; 
+    border-radius: 10px; 
+    background-color: whitesmoke;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 1px 5px gray;
+    font-size: 18px;
+    font-weight: 400
 }
+
+.image {
+    border-radius: 10px;
+}
+
+
+
