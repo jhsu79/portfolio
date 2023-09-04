@@ -28,11 +28,13 @@ Hi there! I'm Joshua N Hsu (Pronounced 'Shoe').  I'm an emerging software engine
     b. [Lily Smith](https://www.linkedin.com/in/lilliana-r-smith/)
     c. [Harkirat Singh](https://www.linkedin.com/in/harkirat-singh-hanzra/) 
 
+4. Also, thank you, Laurie, for recommendations on Fonts. 
+    a. [Laurie Himmel](https://www.linkedin.com/in/laurie-himmel/)
 
 
 ##### FUTURE FEATURES 
-1. Populate projects page 
-2. Complete the form for contact.
-3. Animations 
-4. Light/Dark Mode.
+1. Complete the form for contact
+2. Light/Dark Mode  
+3. Add Animations   
+4. Populate projects page
  
