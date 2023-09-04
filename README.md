@@ -23,7 +23,7 @@ Hi there! I'm Joshua N Hsu (Pronounced 'Shoe').  I'm an emerging software engine
 2. Also, a huge thanks to my best man and best friend, who inspired me to follow this path and has been my mentor throughout this transition. 
     a. [Ian Delduca, Software Engineer](https://www.linkedin.com/in/ian-del-duca-a6a90285/)
 
-3. A huge shoutout to my collaborators on Mingo (Go Team Flam!) and Chef's Kiss, who helped me become an even better developer. 
+3. A huge shoutout to my collaborators on Mingo (Go Team Flam!) and Chef's Kiss, who helped me become an even better developer and design lead. 
     a. [James Redden](https://www.linkedin.com/in/jamesredden1/)
     b. [Lily Smith](https://www.linkedin.com/in/lilliana-r-smith/)
     c. [Harkirat Singh](https://www.linkedin.com/in/harkirat-singh-hanzra/) 
