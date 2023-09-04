@@ -23,7 +23,7 @@
     border-radius: 10px; 
     border-bottom: 2px solid black;
     box-shadow: 0px 1px 5px gray;
-    color: rgb(78, 77, 77)
+    color: rgb(72, 72, 72);
 }
 
 .image-bio-container {
@@ -32,7 +32,6 @@
 
 .bio-container{
     background-color: white;
-    background: radial-gradient(white, rgb(211, 211, 211))
 }
 
 .card { 
