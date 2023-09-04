@@ -1,6 +1,5 @@
 import "./Footer.css";
 import Button from "./Button";
-import Icon from "./Icon"
 import { faLinkedin, faSquareGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 

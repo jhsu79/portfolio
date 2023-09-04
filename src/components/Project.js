@@ -1,10 +1,10 @@
-import "./Project.css";
+import "./Project.css"
 import Button from "./Button";
 import Image from "./Image";
 import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Project({
-  project: { name, description, image, git, live },
+  project: { name, description, image, live },
 }) {
   return (
     <div className="project-card">
@@ -20,6 +20,5 @@ export default function Project({
       <Image imageurl={image} height="400" width="600" />
       </div>
     </div>
-
   );
 }
