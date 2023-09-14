@@ -16,8 +16,10 @@ export default function About() {
   const loaded = ({
     imageurl,
     bio,
+    specialties,
     interests,
     location,
+    pronouns, 
     languages,
     pronunciation,
     programming,
@@ -42,11 +44,15 @@ export default function About() {
           <p className="bio-container">
             <h2>about me</h2>
             <p className="card">{bio}</p>
+            <h2>specialties</h2>
+            <p className="card">{specialties}</p>
             <h2>interests</h2>
             <p className="card">{interests}</p>
+            <h2>what pronouns do I use?</h2>
+            <p className="card">{pronouns}</p>
             <h2>how do I pronounce my last name?</h2>
             <p className="card">I pronounce my last name "{pronunciation}"</p>
-            <h2>location</h2>
+            <h2>where am I currently based?</h2>
             <p className="card">{location}</p>
             <h2>languages spoken</h2>
             <p className="card">{languages}</p>

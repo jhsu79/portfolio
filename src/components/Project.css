@@ -1,10 +1,9 @@
 .project-card {
     font-family: 'FigTree', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
     display: flex; 
     flex-direction: row; 
     align-items: center;
+    justify-content: space-between;
     margin: 40px; 
     padding: 20px;
     border-radius: 10px; 
@@ -15,9 +14,9 @@
 } 
 .name-description-card  {
     display: flex; 
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
-    width: 100%;
+    max-width: 100%;
     margin: 30px;
     padding: 20px 40px; 
     border-radius: 10px; 
@@ -25,9 +24,11 @@
     border-bottom: 2px solid black;
     box-shadow: 0px 1px 5px gray;
     color: rgb(72, 72, 72);
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 400
 }
+
+
 
 .image-card * {
     background-color: whitesmoke;
