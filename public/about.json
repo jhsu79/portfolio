@@ -7,9 +7,10 @@
     "specialties": "My experience in the arts and education has taught me how to manage teams, deal with different personalities, and design and implement solutions with few resources and tight deadlines. I am confident in my ability to deliver a product that can be crafted to a client's needs, harnessing the specific tools necessary to get the job done.", 
     "interests": "I enjoy working on immersive and collaborative projects that spark creativity, curiosity, and conversation.", 
     "location": "I currently live in Portland, ME with my wife, two children, and two dogs.",
-    "languages": "I also Mandarin and Cantonese. ",
-    "programming": "JavaScript, HTML, CSS, Python, SQL, Typescript, EJS, DTL",
-    "frameworks": "React, Express.js, Django, Jquery, Bootstrap, Mongoose",
-    "tools": "Web, Application Architecture, Git, REST, JSON, NPM"
+    "languages": "I also speak Mandarin and Cantonese. ",
+    "programming": ["Javascript ", "HTML ", "CSS ", "Python ", "SQL ", "Typescript ", "EJS ", "DTL "],
+    "frameworks": ["React ", "Express.js ", "Django ", "Jquery ", "Bootstrap ", "Mongoose "],
+    "databases":["PostgreSQL",  "MongoDB",  "Oracle", "Hubspot"],
+    "tools": ["Web and Application Architecture ", "Git ", "REST ", "JSON ", "NPM "]
   }
 
