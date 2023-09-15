@@ -4,7 +4,7 @@ import { faLinkedin, faSquareGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 import DownloadButton from "./DownloadButton";
-import Resume from "../assets/jhwebresumewebv2.pdf"
+import Resume from "../assets/jhwebresumewebv3.pdf"
 
 export default function Footer() {
   return (

@@ -4,10 +4,10 @@
     "pronouns": "he/him",
     "imageurl": "https://i.imgur.com/m6iZxkq.jpg",
     "bio": "Hi there! I'm Josh. I'm an emerging software engineer with a demonstrated history in education and arts management, vision building, and design.",
-    "specialties": "My experience in the arts and education has taught me how to manage teams, deal with different personalities, and design and implement solutions with few resources and tight deadlines.I am confident in my ability to deliver a product that can be crafted to a client's needs, harnessing the specific tools necessary to get the job done.", 
+    "specialties": "My experience in the arts and education has taught me how to manage teams, deal with different personalities, and design and implement solutions with few resources and tight deadlines. I am confident in my ability to deliver a product that can be crafted to a client's needs, harnessing the specific tools necessary to get the job done.", 
     "interests": "I enjoy working on immersive and collaborative projects that spark creativity, curiosity, and conversation.", 
     "location": "I currently live in Portland, ME with my wife, two children, and two dogs.",
-    "languages": "I not only speak English but also Mandarin and Cantonese.",
+    "languages": "I also Mandarin and Cantonese. ",
     "programming": "JavaScript, HTML, CSS, Python, SQL, Typescript, EJS, DTL",
     "frameworks": "React, Express.js, Django, Jquery, Bootstrap, Mongoose",
     "tools": "Web, Application Architecture, Git, REST, JSON, NPM"

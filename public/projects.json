@@ -1,5 +1,13 @@
 [
   {
+    "name": "Chef's Kiss",
+    "live": "https://thechefskiss.netlify.app/",
+    "git": "https://github.com/jhsu79/chefskiss",
+    "image": "https://i.imgur.com/5GABH60.jpg",
+    "description": "A full-stack app that allows users to search for restaurants in a given area, save a restaurant to a list, and add their own impressions."
+  }, 
+
+  {
     "name": "Mingo",
     "live": "https://mingo-b8899ae399d9.herokuapp.com/posts",
     "git": "https://github.com/jhsu79/mingo",
@@ -12,6 +20,6 @@
       "live": "https://jhsu79.github.io/blackjack/",
       "git": "https://github.com/jhsu79/blackjack",
       "image": "https://i.imgur.com/LU4lLId.png",
-      "description": "Basic Blackjack game coded with object-oriented programming."
+      "description": "A basic Blackjack game coded using object-oriented programming."
     }
   ]
