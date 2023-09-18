@@ -4,7 +4,11 @@
     "live": "https://thechefskiss.netlify.app/",
     "git": "https://github.com/jhsu79/chefskiss",
     "image": "https://i.imgur.com/5GABH60.jpg",
-    "description": "A full-stack app that allows users to search for restaurants in a given area, save a restaurant to a list, and add their own impressions."
+    "description": "A full-stack app that allows users to search for restaurants in a given area, save a restaurant to a list, and add their own impressions.",
+    "tech": [" MongoDB, ", " Express.js, ", " React, ", " Node.js, ", "Yelp API Fusion, ", " CSS "],
+    "role1": "Wire-framed, developed, and coded the front-end infrastructure ", 
+    "role2": "Integrated the back-end third party API with the frontend"
+
   }, 
 
   {
@@ -12,7 +16,10 @@
     "live": "https://mingo-b8899ae399d9.herokuapp.com/posts",
     "git": "https://github.com/jhsu79/mingo",
     "image": "https://i.imgur.com/GFfHO6W.png",
-    "description": "A minimalist, text-based app (inspired by Twitter) that allows for users to create subject-based posts and respond with comments."
+    "description": "A minimalist, text-based app (inspired by Twitter) that allows for users to create subject-based posts and respond with comments.",
+    "role1":"Served as project lead for a team of two other front-end/back-end developers ",
+    "role2":"Worked in both the frontend and backend as needed", 
+    "tech": ["  MongoDB,  ", "  Express.js,  ", "  Node.js,  ", "  CSS, "]
   }, 
 
     {
@@ -20,6 +27,9 @@
       "live": "https://jhsu79.github.io/blackjack/",
       "git": "https://github.com/jhsu79/blackjack",
       "image": "https://i.imgur.com/LU4lLId.png",
-      "description": "A basic Blackjack game coded using object-oriented programming."
+      "description": "A basic Blackjack game coded using object-oriented programming.",
+      "role1":"Built a web application rendered with animations, flexbox, and grid using HTML and CSS",  
+      "role2":"Utilized Vanilla JS with object-oriented programming for computer interactions ", 
+      "tech": [" Javascript, ", " HTML, ", " CSS "]
     }
   ]

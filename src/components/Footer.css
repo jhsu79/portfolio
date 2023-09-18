@@ -12,6 +12,14 @@
 
 .Nav {
     display: flex;
+    align-items: center;
     margin-right: 20px;
+    font-family: Figtree, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color:#2587fb ;
+
   }
+
+
   
