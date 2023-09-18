@@ -21,7 +21,7 @@ export default function Contact() {
   async function handleSubmit(e) {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:3002/send', {
+      const response = await fetch('http://localhost:4000/send', {
         method: "POST",
         body: JSON.stringify(formData),
         headers: {
@@ -48,7 +48,7 @@ export default function Contact() {
       alert("An error occurred while sending the message.");
     }
   };
-  
+
   return (
     <div className="Contact">
       <p className="text"> how can we work together? </p>
