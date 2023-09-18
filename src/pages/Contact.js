@@ -18,13 +18,37 @@ export default function Contact() {
       [name]: value,
     });
   }
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault();
-    console.log(formData)
-
-
-  }
-
+    try {
+      const response = await fetch('http://localhost:3002/send', {
+        method: "POST",
+        body: JSON.stringify(formData),
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+      });
+  
+      const responseData = await response.json();
+  
+      if (responseData.status === 'success') {
+        alert("Message Sent.");
+        // Reset the form if needed
+        setFormData({
+          name: '',
+          email: '',
+          message: '',
+        });
+      } else if (responseData.status === 'fail') {
+        alert("Message failed to send.");
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      alert("An error occurred while sending the message.");
+    }
+  };
+  
   return (
     <div className="Contact">
       <p className="text"> how can we work together? </p>
