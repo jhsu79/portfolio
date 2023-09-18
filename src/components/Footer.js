@@ -9,7 +9,6 @@ import Resume from "../assets/jhwebresumewebv3.pdf"
 export default function Footer() {
   return (
    <div className= "Footer">
-    <Button url="/contact" icon={faEnvelope} />
     <nav className="Nav">
       <Button url="https://www.linkedin.com/in/joshuanhsu" icon={faLinkedin} />
       <Button url="https://github.com/jhsu79" icon={faSquareGithub} />
