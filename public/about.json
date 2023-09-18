@@ -8,9 +8,9 @@
     "interests": "I enjoy working on immersive and collaborative projects that spark creativity, curiosity, and conversation.", 
     "location": "I currently live in Portland, ME with my wife, two children, and two dogs.",
     "languages": "I also speak Mandarin and Cantonese. ",
-    "programming": ["Javascript ", "HTML ", "CSS ", "Python ", "SQL ", "Typescript ", "EJS ", "DTL "],
-    "frameworks": ["React ", "Express.js ", "Django ", "Jquery ", "Bootstrap ", "Mongoose "],
-    "databases":["PostgreSQL",  "MongoDB",  "Oracle", "Hubspot"],
-    "tools": ["Web and Application Architecture ", "Git ", "REST ", "JSON ", "NPM "]
+    "programming": ["Javascript, ", "HTML, ", "CSS, ", "Python, ", "SQL, ", "Typescript, ", "EJS, ", "DTL "],
+    "frameworks": ["React, ", "Express.js, ", "Django, ", "Jquery, ", "Bootstrap, ", "Mongoose, "],
+    "databases":["PostgreSQL, ",  "MongoDB,",  "Oracle,", "Hubspot,"],
+    "tools": ["Web and Application Architecture, ", "Git, ", "REST, ", "JSON, ", "NPM, "]
   }
 
