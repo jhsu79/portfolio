@@ -1,39 +1,60 @@
 import "./Contact.css";
-import Input from "../components/Input.js"
+import Input from "../components/Input.js";
 import { useState } from "react";
-import "../components/Button.css"
-import "./About.css"
-
+import "../components/Button.css";
+import "./About.css";
 
 export default function Contact() {
-  const [name, setName]= useState("")
-  const [email, setEmail]= useState("")
-  const [message, setMessage]= useState("")
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
-  function handleNameChange(e){
-    setName(e.target.value)
+  function handleChange(e) {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
   }
-  function handleEmailChange(e){
-    setEmail(e.target.value) 
-  }
-  function handleMessageChange(e){
-    setMessage(e.target.value) 
-  }
-  function handleSubmit(e){
-    //Insert handlesubmit logic here. 
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log(formData)
+
+
   }
 
   return (
     <div className="Contact">
-        <p className='text'> how can we work together? </p>
+      <p className="text"> how can we work together? </p>
       <div className="card">
-     
-      <form id ="contact-form" onSubmit={handleSubmit} method="POST">
-        <Input label="name" type="text" value={name} onChange={handleNameChange} />
-        <Input type="email" label='your e-mail' value={email} onChange={handleEmailChange}/>
-        <Input label='your message' type='text-area' value={message} onChange={handleMessageChange}/>
-        <button type="submit" className="Button">Send</button> 
-      </form>
+        <form id="contact-form" onSubmit={handleSubmit} method="POST">
+          <Input
+            label="name"
+            name="name"
+            type="text"
+            value={formData.name}
+            onChange={handleChange}
+          />
+          <Input
+            label='e-mail'
+            type="email"
+            name="e-mail"
+            value={formData.email}
+            onChange={handleChange}
+          />
+          <Input
+            label="your message"
+            name="message"
+            type="text-area"
+            value={formData.message}
+            onChange={handleChange}
+          />
+          <button type="submit" className="Button">
+            Send
+          </button>
+        </form>
       </div>
     </div>
   );
