@@ -31,11 +31,15 @@
 }
 
 .bio-container{
+    display: flex;
+    flex-direction: column;
     background-color: white;
     font-size: 21px; 
 }
 
 .card { 
+    display: flex; 
+    flex-direction: column;
     padding: 20px 40px; 
     border-radius: 10px; 
     background-color: whitesmoke;
@@ -43,4 +47,34 @@
     box-shadow: 0px 1px 5px gray;
     font-size: 24px;
     font-weight: 400
+} 
+
+.card1 { 
+    width: fit-content;
+    padding: 8px 10px; 
+    display: flex; 
+    flex-wrap: row wrap;
+    justify-content: center;
+    border-radius: 10px; 
+    background-color: whitesmoke;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 1px 5px gray;
+} 
+
+
+.item {
+    width: fit-content;
+    display: flex; 
+    align-items: center;
+    margin: 8px;
+    padding: 12px 10px 12px 10px;
+    background-color: #2587fb;
+    color: white;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 1px 5px gray;
+    border-radius: 18px;
+    font-size: 18px;
+    color: rgb(190, 237, 253);
+    
+
 }

@@ -24,6 +24,7 @@ export default function About() {
     pronunciation,
     programming,
     frameworks,
+    dbs,
     tools,
   }) => (
     <div className="About">
@@ -33,11 +34,37 @@ export default function About() {
           <Image imageurl={imageurl} height="300" width="300" />
         
             <h3>programming languages</h3>
-            <p className="card">{programming}</p>
+            <p className="card1">
+            {programming.map((language, index) => (
+              <div key={index} className="item">
+                {language}
+              </div>
+            ))}</p>
             <h3>frameworks</h3>
-            <p className="card">{frameworks}</p>
-            <h3>tools</h3>
-            <p className="card">{tools}</p>
+            <p className="card1">
+            {frameworks.map((framework, index) => (
+              <div key={index} className="item">
+                {framework}
+              </div>
+            ))}
+            </p>
+             <h3>databases and crms</h3>
+             <p className="card1">
+            {dbs.map((db, index) => (
+              <div key={index} className="item">
+                {db}
+              </div>
+            ))}
+            </p>
+
+             <h3>tools</h3>
+             <p className="card1">
+            {tools.map((db, index) => (
+              <div key={index} className="item">
+                {db}
+              </div>
+            ))}
+            </p>
           </p>
         </div>
         <div>
