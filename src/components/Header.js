@@ -5,7 +5,7 @@ export default function Header(props) {
   return (
     <header className="header">
       <div className="title">
-        <h1>JOSHUA N HSU</h1>
+        <h1 className='name'>JOSHUA N HSU</h1>
         <h2> software engineer | educator | storyteller </h2>
       </div>
       <nav className="Nav">
