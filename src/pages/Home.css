@@ -15,8 +15,12 @@
     color: #1b5194;
 }
 
-.Home > .Button {
+.links {
+    display: flex; 
+    flex-direction: row;
+}
 
+.Home > .Button {
     width: fit-content;
 }
 

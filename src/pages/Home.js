@@ -13,7 +13,10 @@ function Home(props) {
       <p>What do you want to <strong>learn?</strong></p>
       <p>Let's <strong>explore</strong> all the ways we can <strong>build</strong> something together! </p>
       <br></br>
+      <div className='links'> 
       <Button className="Button" linktext="Learn More About Me" url="/about" />
+      <Button className="Button" linktext="Learn More about My Projects" url="/projects" />
+      </div>
     </div>
   );
 }
