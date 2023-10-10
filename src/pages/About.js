@@ -71,9 +71,9 @@ export default function About() {
           <p className="bio-container">
             <h3>about me</h3>
             <p className="card">{bio}</p>
-            <h3>specialties</h3>
+            <h3>what are your strengths? </h3>
             <p className="card">{specialties}</p>
-            <h3>interests</h3>
+            <h3>what kind of projects do you enjoy working on?</h3>
             <p className="card">{interests}</p>
             <h3>what pronouns do I use?</h3>
             <p className="card">{pronouns}</p>

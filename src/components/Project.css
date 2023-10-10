@@ -31,6 +31,7 @@
 
 
 .image-card * {
+    width: fit-content; 
     background-color: whitesmoke;
     border-radius: 30px;
     border-bottom: 2px solid black;
@@ -38,5 +39,10 @@
 }
 
 .project-buttons {
-    width: 140px;
+    width: fit-content;
+    padding: 20px; 
+}
+
+.tech {
+    display: flex;
 }

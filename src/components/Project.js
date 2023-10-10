@@ -10,12 +10,21 @@ export default function Project({
     <div className="project-card">
       <div className="name-description-card">
         <h1><strong>{name}</strong></h1>
+        <br></br>
         <p>{description}</p> 
         <br></br>
         <li> {role1}</li>
         <li> {role2}</li>
         <br></br>
-        <p><h4><strong>Technologies Used:</strong></h4>{tech}</p>
+        <h4 ><strong>Technologies Used:</strong>
+        <p className="tech" >
+  {tech.map((tech, index) => (
+    <div key={index} className="item">
+      {tech}
+    </div>
+  ))}
+</p>
+</h4>
         <br></br>
         <div className="project-buttons">
           <Button linktext="GitHub " url="https://github.com/jhsu79" icon={faSquareGithub} />

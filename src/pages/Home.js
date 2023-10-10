@@ -1,5 +1,4 @@
 import "./Home.css";
-import 'animate.css';
 import Button from "../components/Button.js";
 
 
