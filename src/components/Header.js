@@ -1,6 +1,7 @@
 import "./Header.css";
 import Button from "./Button";
 import { faHouse } from "@fortawesome/free-solid-svg-icons"
+
 export default function Header(props) {
   return (
     <header className="header">

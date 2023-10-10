@@ -1,32 +1,23 @@
+
 .Home {
     display: flex; 
     flex-direction: column;
     min-height: 80vh;
     font-family: "Figtree", sans-serif;
-    font-weight: 800; 
     font-size: 60px;
     margin: 0px;
-    padding: 100px;
-    background: -webkit-linear-gradient(#2587fb, #11345f);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    padding: 100px;  
   }
 
-.Home > p:first-child, .Home > p:last-child {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-.Home > p:nth-child(2), .Home > p:nth-child(4) {
-    display: flex; 
-    justify-content: flex-start; 
-    margin: 20px; 
+.Home > p {
+    justify-content: flex-start;
+    font-weight: 400; 
+    color: #1b5194;
 }
 
-.Home > p:nth-child(3) {
-    display: flex; 
-    justify-content: flex-end; 
-    margin: 20px; 
+.Home > .Button {
+
+    width: fit-content;
 }
 
 

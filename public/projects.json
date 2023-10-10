@@ -1,5 +1,16 @@
 [
   {
+    "name": "Lesson Note Generator",
+    "live": "https://lessonsummarygenerator-be7e909808c1.herokuapp.com/",
+    "git": "https://github.com/jhsu79/lesson-summary-generator",
+    "image": "https://user-images.githubusercontent.com/137417888/271753007-d77ff882-5765-4df2-877b-ecd2ee3abd2a.png",
+    "description": "Lesson Summary Generator is a mobile-ready, responsive web application that offers educational professionals an integrated platform where they can effortlessly create student rosters, outline detailed concepts to be covered, record homework performance, document lesson discussions, and assign future tasks with ease.",
+    "tech": [" Django, ", " Python, ", " PostgreSQL, ", " OpenAI API,  ", "Bootstrap CSS"],
+    "role1": "Fully Designed, coded, and integrated a full stack application",
+    "role2" :"Integrated OpenAI to generate summaries"
+  }, 
+
+  {
     "name": "Chef's Kiss",
     "live": "https://thechefskiss.netlify.app/",
     "git": "https://github.com/jhsu79/chefskiss",

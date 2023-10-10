@@ -9,11 +9,14 @@ export default function Project({
   return (
     <div className="project-card">
       <div className="name-description-card">
-        <h1>{name}</h1>
-        <p>{description}</p>
+        <h1><strong>{name}</strong></h1>
+        <p>{description}</p> 
+        <br></br>
         <li> {role1}</li>
         <li> {role2}</li>
-        <p><h4>Technologies Used:</h4>{tech}</p>
+        <br></br>
+        <p><h4><strong>Technologies Used:</strong></h4>{tech}</p>
+        <br></br>
         <div className="project-buttons">
           <Button linktext="GitHub " url="https://github.com/jhsu79" icon={faSquareGithub} />
           <Button linktext="Live Site" url={live} />
