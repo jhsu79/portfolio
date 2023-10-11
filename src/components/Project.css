@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 40px; 
-    padding: 20px;
+    padding: 20px;git 
     border-radius: 10px; 
     border-bottom: 2px solid black;
     box-shadow: 0px 1px 5px gray;
@@ -29,11 +29,10 @@
 }
 
 
-
-.image-card * {
-    width: fit-content; 
+.image-card * { 
+    width:max-content;
     background-color: whitesmoke;
-    border-radius: 30px;
+    border-radius: 10px;
     border-bottom: 2px solid black;
     box-shadow: 0px 1px 5px gray;
 }

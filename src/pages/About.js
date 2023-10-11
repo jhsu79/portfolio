@@ -29,7 +29,7 @@ export default function About() {
   }) => (
     <div className="About">
       <div className="image-bio-container">
-        <div>
+        <div className='image-bio-container-background'>
         <p className="bio-container">
           <Image imageurl={imageurl} height="300" width="300" />
         

@@ -33,7 +33,7 @@ export default function Project({
         
       </div>
       <div className="image-card">
-      <Image imageurl={image} height="400" width="600" />
+      <Image imageurl={image} height="1000" width="1000" />
       </div>
     </div>
   );

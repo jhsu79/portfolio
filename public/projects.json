@@ -6,8 +6,8 @@
     "image": "https://i.imgur.com/iNK8JxA.png",
     "description": "Lesson Summary Generator is a mobile-ready, responsive web application that offers educational professionals an integrated platform where they can effortlessly create student rosters, outline detailed concepts to be covered, record homework performance, document lesson discussions, and assign future tasks with ease.",
     "tech": [" Django ", " Python ", " PostgreSQL ", " OpenAI API  ", "Bootstrap CSS"],
-    "role1": "Fully Designed, developed, and coded all aspects of the application ",
-    "role2" :"Integrated OpenAI to generate lesson summaries"
+    "role1": "Fully designed, developed, and coded all aspects of the application ",
+    "role2" : "Integrated OpenAI to generate lesson summaries"
   }, 
 
   {

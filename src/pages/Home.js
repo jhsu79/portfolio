@@ -6,7 +6,7 @@ function Home(props) {
   return (
     <div className="Home">
       <p><strong>I'm Joshua Hsu</strong> </p>
-      <p>I'm a <strong>software engineer</strong>, an <strong>educator</strong>, and a <strong>storyteller</strong> </p>
+      <p>A <strong>software engineer</strong>, an <strong>educator</strong>, and a <strong>storyteller</strong> </p>
       <br></br>
       <p>What <strong>story</strong> do you want to <strong>tell?</strong></p>
       <p>What do you want to <strong>learn?</strong></p>

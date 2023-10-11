@@ -1,6 +1,6 @@
 
 .About{
-    margin: 20px; 
+    margin: 1px; 
 }
 
 .About img {
@@ -8,7 +8,6 @@
     border-bottom: 2px solid black;
     box-shadow: 0px 1px 5px gray;
 }
-
 
 .image-bio-container{
     display: flex; 
@@ -18,7 +17,7 @@
 }
 
 .image-bio-container, .bio-container {
-    margin: 30px; 
+    margin: 20px; 
     padding: 20px 40px; 
     border-radius: 10px; 
     border-bottom: 2px solid black;
@@ -28,13 +27,23 @@
 
 .image-bio-container {
     background-color: whitesmoke;
+    height: 100%;
 }
+
+.image-bio-container-background {
+    height: 100%; 
+    width: fit-content;
+}
+
 
 .bio-container{
     display: flex;
+    height: 100%;
     flex-direction: column;
     background-color: white;
-    font-size: 21px; 
+    font-size: 20px; 
+    font-weight: 600;
+    
 }
 
 .card { 
@@ -46,14 +55,14 @@
     background-color: whitesmoke;
     border-bottom: 2px solid black;
     box-shadow: 0px 1px 5px gray;
-    font-size: 24px;
+    font-size:  18px;
     font-weight: 400
 } 
 
 .card1 { 
     width: fit-content;
-    margin: 20px;
-    padding: px 10px; 
+    margin: 10px;
+    padding: 10px; 
     display: flex; 
     flex-wrap: row wrap;
     justify-content: center;
@@ -68,14 +77,14 @@
     width: fit-content;
     display: flex; 
     align-items: center;
-    margin: 8px;
+    margin: 6px;
     padding: 12px 10px 12px 10px;
     background-color: #237eec;
     color: white;
     border-top: 2px solid whitesmoke;
     box-shadow: 5px 1px 0px gray;
     border-radius: 18px;
-    font-size: 18px;
+    font-size: 12px;
     color: rgb(190, 237, 253);
     
 

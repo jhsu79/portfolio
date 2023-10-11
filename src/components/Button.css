@@ -16,9 +16,21 @@
     font-size: 24px;
 }
 
+
+
 .Button a {
     text-decoration: none; 
     color: white;
     font-size: 24px;
 
+}
+
+
+.Button:hover {
+    background: white; 
+}
+
+.Button a:hover {
+    background: white;
+    color: #2587fb;
 }
